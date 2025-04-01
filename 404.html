@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found | Amara Okafor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&family=Playfair+Display:ital@0;1&family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <style>
+        .error-page {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-color: var(--light-color);
+        }
+        .error-container {
+            max-width: 600px;
+            padding: 40px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        .error-code {
+            font-size: 100px;
+            font-weight: 100;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            line-height: 1;
+        }
+        .error-message {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: var(--dark-color);
+        }
+        .error-description {
+            margin-bottom: 30px;
+            color: var(--dark-color);
+        }
+        .back-btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: var(--primary-color);
+            color: var(--light-color);
+            text-decoration: none;
+            border-radius: 30px;
+            font-family: 'Poppins', sans-serif;
+            transition: all 0.3s ease;
+        }
+        .back-btn:hover {
+            background-color: var(--accent-color);
+        }
+    </style>
+</head>
+<body>
+    <div class="error-page">
+        <div class="error-container">
+            <h1 class="error-code">404</h1>
+            <h2 class="error-message">Page Not Found</h2>
+            <p class="error-description">Oops! The page you are looking for seems to have wandered off into another story. Let's return to the beginning of our journey.</p>
+            <a href="index.html" class="back-btn">Back to Homepage</a>
+        </div>
+    </div>
+</body>
+</html>

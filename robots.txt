@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /assets/
+Disallow: /draft/
+Disallow: /temp/
+
+Sitemap: https://amaraokafor.com/sitemap.xml
